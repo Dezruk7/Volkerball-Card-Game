@@ -48,8 +48,8 @@ public class PlayerMovement : MonoBehaviour
         //transform.position = position;
 
         //New Input System
-        position.x = move.ReadValue<Vector2>().x * speed * Time.deltaTime;
-        position.y = move.ReadValue<Vector2>().y * speed * Time.deltaTime;
+        position.x += move.ReadValue<Vector2>().x * speed * Time.deltaTime;
+        position.y += move.ReadValue<Vector2>().y * speed * Time.deltaTime;
 
         transform.position = position;
     }
