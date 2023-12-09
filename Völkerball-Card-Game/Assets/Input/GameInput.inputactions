@@ -352,6 +352,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9c80dc72-ff34-4f75-92b5-238c63387a02",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "297d2f8f-373c-4d7d-b1c2-cad6f6b303cc",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
@@ -380,6 +391,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Emote1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d8c25d8-39b8-4299-967d-bab79cbc975f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
