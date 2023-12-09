@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static float gameBorderX = 7.5f;
+    public static float gameBorderY = 3.5f;
+    public static float gameBorderMid = 0.35f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //void Start()
+    //{
+    // 
+    //}
+
+    
+    //void Update()
+    //{
+    //    
+    //}
 }
