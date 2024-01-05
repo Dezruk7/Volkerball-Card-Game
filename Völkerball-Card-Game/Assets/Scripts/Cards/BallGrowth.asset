@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f724a44498c522f408a5b11db201c320, type: 3}
+  m_Name: BallGrowth
+  m_EditorClassIdentifier: 
+  _id: 0
+  _name: Giant Ball
+  _description: Makes the ball bigger and slower.
+  _ballCatchable: 0
+  _ballCatching: 0
+  _ballHitting: 1
+  _ballSize: 1.5
+  _ballSpeed: 0.75
+  _ballTimeInHand: 0
+  _cooldown: 300
+  _multipleBalls: 0
+  _ballCount: 1
