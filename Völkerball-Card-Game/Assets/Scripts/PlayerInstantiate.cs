@@ -8,7 +8,7 @@ public class PlayerInstantiate : MonoBehaviour
     public GameObject playerPrefab;
     PlayerController playerController;
 
-    Vector2 startPos = new Vector2(0,0);
+    //Vector2 startPos = new Vector2(0,0);
 
     private void Awake()
     {
@@ -16,6 +16,7 @@ public class PlayerInstantiate : MonoBehaviour
         {
             playerController = GameObject.Instantiate(playerPrefab, PlayerManager.instance.spawnPoints[0].transform.position, transform.rotation).GetComponent<PlayerController>();
             transform.parent = playerController.transform;
+            transform.position = playerController.transform.position;
         }
     }
 }
