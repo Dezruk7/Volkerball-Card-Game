@@ -12,10 +12,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     [Range(1, 20)] private float speed = 10f;
 
-    private CharacterController controller;
-
     //For the Player Input Component
     private Vector2 movementInput = Vector2.zero;
+    private CharacterController controller;
 
     //private Vector2 position;
 
@@ -54,10 +53,10 @@ public class PlayerMovement : MonoBehaviour
         Vector2 move = new Vector2(movementInput.x, movementInput.y);
         controller.Move(move * speed * Time.deltaTime);
 
-        if (move != Vector2.zero)
-        {
-            gameObject.transform.position = move;
-        }
+        //if (move != Vector2.zero)
+        //{
+        //    gameObject.transform.position = move;
+        //}
 
         
     }
